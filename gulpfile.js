@@ -38,6 +38,7 @@ function scripts() {
 		.pipe(webpack({
 			mode: 'production',
 			performance: { hints: false },
+			optimization: { minimize: false },
 			module: {
 				rules: [
 					{
